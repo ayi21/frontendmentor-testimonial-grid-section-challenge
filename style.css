@@ -1,0 +1,66 @@
+* {
+    color: white;
+    font-size: 16px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 30px 10px;
+    background: #ECF2F8;
+}
+
+.flex-item {
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.daniel { background: #733fc8; }
+.jonathan { background: #48556A; }
+.jeanette, .kira { background: #fff; }
+.patrick{ background: #19212E; }
+
+.jeanette .testimonial, .jeanette .author, .jeanette .author-title, .jeanette .testimonial-summary, .kira .author, .kira .author-title, .kira .testimonial-summary, .kira .testimonial {
+    color: #19212E;
+}
+
+img {
+    border-radius: 50px;
+    width: 40px;
+    border: 1px solid white;
+}
+
+.author {
+    font-weight: 600;
+}
+
+.author-title {
+    font-size: .8rem;
+    opacity: 50%;
+}
+
+.testimonial-summary {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.testimonial {
+    font-size: .8rem;
+    opacity: 70%;
+}
+
+@media only screen and (min-width: 575px) {
+
+.flexbox-left-top, .flexbox-left-bottom, .flex-container {
+    display: flex;
+} 
+
+.kira {
+    flex-basis: 70%;
+}
+}
